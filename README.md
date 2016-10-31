@@ -1,7 +1,7 @@
 # File-Reader-through-Voice
-Statement:
+Statement:\n
 	A code which accepts file with any extension(.txt, .docx, .pdf) as input and reads the respective file through voice. 
-Installation and Packages:
+Installation and Packages:\n
 •	Windows Environment
 •	Python 2.7.10
 •	Pyttsx
