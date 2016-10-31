@@ -37,7 +37,7 @@ print('PTS Success')
 engine.setProperty('rate', 100)
 engine.setProperty('volume', 0.5)
 voices = engine.getProperty('voices') 
-z = raw_input("Enter the Document") #I am using a file named demo.docx as input  from python folder
+z = raw_input("Enter the Document") #I am using a file named sample.docx as input  from python folder
 input_file= z + ".docx"
 for voice in voices: #to change the voice of speech
     engine.setProperty('voice', voice.id)
